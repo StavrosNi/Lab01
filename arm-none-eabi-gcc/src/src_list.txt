@@ -1,0 +1,37 @@
+ Volume in drive C has no label.
+ Volume Serial Number is 900C-9918
+
+ Directory of C:\Users\Joe\OneDrive - University of Southampton\Lab01\arm-none-eabi-gcc\src
+
+10/11/2017  17:59    <DIR>          .
+10/11/2017  17:59    <DIR>          ..
+10/11/2017  17:13             2,539 board.c
+10/11/2017  17:13             9,116 clock_config.c
+10/11/2017  17:13            15,771 croutine.c
+10/11/2017  17:13            26,251 event_groups.c
+10/11/2017  17:13            42,204 fsl_clock.c
+10/11/2017  17:13             5,713 fsl_common.c
+10/11/2017  17:13            68,112 fsl_debug_console.c
+10/11/2017  17:13           130,244 fsl_flash.c
+10/11/2017  17:13             6,643 fsl_gpio.c
+10/11/2017  17:13             5,581 fsl_lptmr.c
+10/11/2017  17:13            43,771 fsl_lpuart.c
+10/11/2017  17:13            11,212 fsl_lpuart_freertos.c
+10/11/2017  17:13            12,640 fsl_smc.c
+10/11/2017  17:13            10,753 fsl_tickless_lptmr.c
+10/11/2017  17:13            11,860 fsl_tickless_systick.c
+10/11/2017  17:13            16,957 heap_4.c
+10/11/2017  17:13             4,098 Lab01.c
+10/11/2017  17:13            10,993 list.c
+10/11/2017  17:13             3,443 mtb.c
+10/11/2017  17:36    <DIR>          obj
+10/11/2017  17:13            20,308 pin_mux.c
+10/11/2017  17:13            13,230 port.c
+10/11/2017  17:59                 0 print.txt
+10/11/2017  17:13            83,729 queue.c
+10/11/2017  17:13            20,464 startup_mkw41z4.c
+10/11/2017  17:13             7,376 system_MKW41Z4.c
+10/11/2017  17:13           158,311 tasks.c
+10/11/2017  17:13            41,115 timers.c
+              27 File(s)        782,434 bytes
+               3 Dir(s)  64,829,407,232 bytes free
