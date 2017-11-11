@@ -370,7 +370,7 @@ void ResetISR(void) {
 	// main() shouldn't return, but if it does, we'll just enter an infinite loop
 	//
 	while (1) {
-		;
+		
 	}
 }
 

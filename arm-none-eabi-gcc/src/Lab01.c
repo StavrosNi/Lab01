@@ -51,7 +51,7 @@
 /*******************************************************************************
  * Prototypes
  ******************************************************************************/
-static void hello_task(void *pvParameters);
+//static void hello_task(void *pvParameters);
 void FlashLED2();
 void FlashLED3();
 /*******************************************************************************
@@ -68,18 +68,20 @@ int main(void)
     BOARD_InitDebugConsole();
     LED_RED_INIT(1);
     LED_BLUE_INIT(1);
-    xTaskCreate(hello_task, "Hello_task", configMINIMAL_STACK_SIZE + 10, NULL, hello_task_PRIORITY, NULL);
+    //xTaskCreate(hello_task, "Hello_task", configMINIMAL_STACK_SIZE + 10, NULL, hello_task_PRIORITY, NULL);
     xTaskCreate(FlashLED2,"LEDtask2",configMINIMAL_STACK_SIZE, NULL, 1, NULL);
     xTaskCreate(FlashLED3,"LEDtask3",configMINIMAL_STACK_SIZE, NULL, 1, NULL);
     vTaskStartScheduler();
-    for (;;)
-        ;
+    while(1)
+	{
+		
+	}
 }
 
 /*!
  * @brief Task responsible for printing of "Hello world." message.
  */
-///*
+/*
 static void hello_task(void *pvParameters)
 {
     for (;;)
