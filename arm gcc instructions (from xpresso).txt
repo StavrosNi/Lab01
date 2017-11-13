@@ -6,3 +6,6 @@ arm-none-eabi-gcc -c -x assembler-with-cpp -D__REDLIB__ -I"C:\Users\Joe\OneDrive
 
 Linker
 arm-none-eabi-gcc -nostdlib -Xlinker -Map="Lab01_test.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m0plus -mthumb -T "Lab01_test_Debug.ld"
+
+Uploader
+"C:\Program Files\SEGGER\JLink_V616b\JLinkGDBServerCL.exe"  -nosilent -swoport 2332 -select USB=621000000 -telnetport 2333 -singlerun -endian little -noir -speed auto   -port 2331  -vd -device MKW41Z512xxx4 -if SWD  -halt -reportuseraction
